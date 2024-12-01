@@ -1,6 +1,6 @@
 # OwnStuff-python
 
-> ⚠️ Warning
+> 🚧 Warning
 >
 > Some of these may shutdown your pc, so save your work beforehand. Especially 'secret to happiness', where all endings will lead to a shutdown. If someone out there REALLY wants safer versions of these, just email > me and ill update this. Email should be on my profile.
 

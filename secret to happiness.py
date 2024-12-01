@@ -1,0 +1,158 @@
+import sys
+import time
+import os
+print("WARNING: Accessing classified documents.")
+cont = input("continue? (y/n) ")
+if cont == "y":
+    print()
+    print("working...")
+    time.sleep(5)
+else:
+    sys.exit()
+
+print()
+print("Please enter credentials to continue.")
+name = input("Name: ")
+password = input("Password: ")
+if password == "fish":
+    print()
+    print("working...")
+    time.sleep(5)
+else:
+    print("Invalid credentials.")
+    time.sleep(5)
+    sys.exit()
+
+print()
+print("SECRET TO HAPPINESS.TXT")
+print()
+time.sleep(10)
+print("Further credentials needed to access document.")
+print("Please enter number from 1 - 100 to continue.")
+num = input("Number: ")
+if num == "36":
+    print()
+    print("working...")
+    time.sleep(5)
+else:
+    print("Invalid credentials.")
+    time.sleep(5)
+    sys.exit()
+
+print()
+print("SECRET TO HAPPINESS.TXT")
+print()
+time.sleep(10)
+print("Further credentials needed to access document.")
+print("please make Jeremy happy to continue.")
+print()
+time.sleep(5)
+print('\x1B[3mHi! Im Jeremy!\x1B[23m')
+time.sleep(3)
+print('\x1B[3mI love chocolate!\x1B[23m')
+time.sleep(3)
+print("What will your action be?")
+print("[1] Fight Jeremy")
+print("[2] Open Inventory")
+print("[3] Run")
+action = input("Action: ")
+
+if action == "1":
+    print()
+    print("Your fight with Jeremy is arduous, but in the end...")
+    time.sleep(3)
+    print("U LOSE BC YOUR A FUCKING DUMBASS LMAO")
+    time.sleep(3)
+    os.system('shutdown /s /t 1')
+elif action == "2":
+    print()
+    print(str(name) + "'s Inventory")
+    print("[1] Chocolate")
+elif action == "3":
+    print()
+    print("You flee the scene, and disappear into the woods. Never to be found again...")
+    time.sleep(3)
+    os.system('shutdown /s /t 1')
+else:
+    print()
+    print("You just kinda stand there, no idea what to do.")
+    time.sleep(3)
+    print("And in that time Jeremy shoots you in the head.")
+    time.sleep(3)
+    os.system('shutdown /s /t 1')
+
+choco = input("Interact with chocolate? (y/n) ")
+if choco == "y":
+    print()
+    print("You take the chocolate from your bag.")
+    time.sleep(3)
+elif choco == "n":
+    print()
+    print("You leave the chocolate in the bag.")
+    time.sleep(3)
+    print("You just kinda stand there, no idea what to do.")
+    time.sleep(3)
+    print("And in that time Jeremy shoots you in the head.")
+    time.sleep(3)
+    os.system('shutdown /s /t 1')
+else:
+    print("You just kinda stand there, no idea what to do.")
+    time.sleep(3)
+    print("And in that time Jeremy shoots you in the head.")
+    time.sleep(3)
+    os.system('shutdown /s /t 1')
+
+print("What would you like to do with the chocolate?")
+print("[1] Eat it")
+print("[2] Destroy it")
+print("[3] Give it to Jeremy")
+print("[4] Give it to someone else")
+choco_action = input("Action: ")
+
+if choco_action == "1":
+    print()
+    print("You eat the chocolate.")
+    time.sleep(3)
+    print("Jeremy stares at you blankly.")
+    time.sleep(3)
+    print("And then shoots you in the head.")
+    time.sleep(3)
+    os.system('shutdown /s /t 1')
+elif choco_action == "2":
+    print()
+    print("You eat the chocolate.")
+    time.sleep(3)
+    print("Jeremy is enraged.")
+    time.sleep(3)
+    print("Jeremy stabs you multiple times in the heart.")
+    time.sleep(3)
+    os.system('shutdown /s /t 1')
+elif choco_action == "3":
+    print()
+    print("You give the chocolate to Jeremy.")
+    time.sleep(3)
+    print("Jeremy is finally happy.")
+    time.sleep(3)
+elif choco_action == "4":
+    print()
+    print("You give the chocolate to someone else.")
+    time.sleep(3)
+    print("Jeremy shoots him first, before he shoots you.")
+    time.sleep(3)
+    os.system('shutdown /s /t 1')
+else:
+    print("You just kinda stand there. the chocolate melts in your hand.")
+    time.sleep(3)
+    print("And in that time Jeremy shoots you in the head.")
+    time.sleep(3)
+    os.system('shutdown /s /t 1')
+
+print()
+print()
+
+print("SECRET TO HAPPINESS.TXT")
+print()
+time.sleep(10)
+print("This file has been marked as incomplete. Please return later.")
+time.sleep(5)
+os.system('shutdown /s /t 1')

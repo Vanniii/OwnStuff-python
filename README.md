@@ -7,4 +7,3 @@
 ## Download Instructions
 Go to the 'releases' tab and on the latest release download 'OwnStuff.zip'
 
-Just a collection of little things I made in python. Will be updated whenever lmao.
